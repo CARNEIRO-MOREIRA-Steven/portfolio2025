@@ -1,0 +1,70 @@
+.about_container{
+    height: 100vh;
+    width: 96vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about_content{
+    margin: 0 0 10vh 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 0 5vw;
+}
+.about_title {
+    color: #ffffff;
+    margin: 0;
+    font-size: 50px;
+    width: auto;
+}
+.about_title_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5%;
+    align-items: center;
+    width: 100%;
+}
+.about_content span {
+    background-color: #3CECA7 !important;
+    width: 55%;
+    height: 2px;
+    display: flex;
+    flex-direction: row;
+}
+.about_description{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.about_competence{
+    width: 45%;
+    color: #ffffff;
+}
+.about_text {
+    color: #ffffff;
+    font-size: 17px;
+    margin: 0;
+    width: 50%;
+    text-align: justify;
+}
+.about_competence_list{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+.about_competence_list li{
+    color: #ffffff;
+    font-size: 15px;
+    margin: 0;
+    text-align: justify;
+    background-color: #3CECA7;
+    color : #000000;
+    border-radius: 5px;
+    padding: 5px 10px;
+}

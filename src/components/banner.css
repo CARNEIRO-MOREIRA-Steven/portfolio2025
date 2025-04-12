@@ -1,0 +1,88 @@
+.container_banner{
+    height: 100vh;
+    width: 96vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.background_banner::before {
+	position: absolute;
+	content: "";
+	right: 10vw;
+	bottom: 2%;
+	width: 450px;
+	height: 350px;
+	background: #3ceca5;
+	border-radius: 62% 47% 82% 35% / 45% 45% 80% 66%;
+	will-change: border-radius, transform, opacity;
+	animation: sliderShape 5s linear infinite;
+	display: block;
+	z-index: -1;
+	-webkit-animation: sliderShape 5s linear infinite;
+}
+@keyframes sliderShape{
+  0%,100%{
+  border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+    transform: translate3d(0,0,0) rotateZ(0.01deg);
+  }
+  34%{
+      border-radius: 70% 30% 46% 54% / 30% 29% 71% 70%;
+    transform:  translate3d(0,5px,0) rotateZ(0.01deg);
+  }
+  50%{
+    transform: translate3d(0,0,0) rotateZ(0.01deg);
+  }
+  67%{
+    border-radius: 100% 60% 60% 100% / 100% 100% 60% 60% ;
+    transform: translate3d(0,-3px,0) rotateZ(0.01deg);
+  }
+}
+
+.content_banner{
+    width: 900px;
+    padding-left: 5vw;
+}
+
+.banner_description strong{
+    font-weight: 700;
+}
+
+.banner_title{
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin: 0;
+  font-size: 80px;
+}
+.banner_title_span{
+    color: #3CECA7 !important;
+}
+.banner_description{
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 300; 
+    width: 550px;
+    text-align: justify;
+}
+.banner_button{
+    background-color: #3CECA7;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    width: 160px;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 15vh;
+}
+
+@media screen and (min-width: 1440px) {
+    .content_banner{
+        width: 1200px;
+    }
+}
