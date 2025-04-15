@@ -3,6 +3,10 @@ body {
   margin: 0;
   background-color: #000000;
   font-family: "Poppins", sans-serif;
+    cursor: none;
+}
+html {
+  scroll-behavior: smooth;
 }
 .container_page{
   width: 97vw;

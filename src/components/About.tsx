@@ -3,11 +3,11 @@ import './about.css';
 
 const About: React.FC = () => {
   return (
-    <section className="about_container">
+    <section className="about_container" id='about'>
       <section className="about_content">
         <div className="about_title_container">
           <span></span>
-          <h2 className="about_title">Me découvrir</h2>
+          <h2 className="about_title">Me Découvrir</h2>
         </div>
         <section className="about_description">
           <section className="about_competence">

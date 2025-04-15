@@ -3,7 +3,7 @@ import './banner.css'
 
 const Banner = () => {
   return (
-    <section className='container_banner background_banner'>
+    <section className='container_banner background_banner' id='top'>
         <section className='content_banner'>
         <h1 className='banner_title'>Développeur<br></br>
         <span className='banner_title_span'>React</span> & <span className='banner_title_span'>Next.js</span></h1>
