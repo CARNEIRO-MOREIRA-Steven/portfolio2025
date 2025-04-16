@@ -142,7 +142,7 @@
   
   @media screen and (min-width: 1024px) and (max-width: 1500px) {
     .projets_content{
-      height: 96vh;
+      height: 85vh;
     }
   }
   @media screen and (min-width: 1700px) {

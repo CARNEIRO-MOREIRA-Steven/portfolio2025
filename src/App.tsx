@@ -5,6 +5,7 @@ import About from './components/About';
 import Projets from './components/Projets';
 import Experiences from './components/Experiences';
 import CustomCursor from './components/CustomCursor';
+import Contact from './components/Contact';
 import './App.css';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <About />
       <Projets />
       <Experiences />
+      <Contact />
       </section>
     </div>
   );
