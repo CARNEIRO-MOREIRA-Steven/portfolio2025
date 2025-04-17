@@ -5,12 +5,12 @@
     justify-content: center;
 }
 .contact_content{
-    width: 70%;
+    width: 1200px;
     display: flex;
     flex-direction: column;
     align-items: center;
     overflow: hidden;
-    height: 55vh;
+    height: 90vh;
     justify-content: center;
 }
 .contact_title_container{
@@ -19,7 +19,7 @@
     justify-content: flex-start;
     gap: 5%;
     align-items: center;
-    width: 70%;
+    width: 100%;
 }
 .contact_title_container span {
     background-color: #3CECA7 !important;
@@ -33,4 +33,159 @@
     text-align: start;
     margin: 0;
     color: #ffffff;
+}
+.contact_content_container{
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact_list{
+    padding-left: 0;
+    list-style: none;
+}
+.contact_list a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    cursor: none;
+}
+.arrow_right{
+    display: none;
+    height: 40px;
+    position: absolute;
+}
+
+.contact_item:hover .arrow_right{
+    display: block;
+}
+
+.contact_item:hover #logo_contact{
+    transition: 0.5s ease-in-out;
+    transform: translate(40px, 0);
+}
+
+.contact_list a:hover{
+    color: #3CECA7;
+}
+
+.calendly-inline-widget{
+    height: 100%;
+    border-radius: 25px;
+    width: 45%;
+    overflow-y: hidden;
+    /* scrollbar-width: none; */
+}
+
+.logo_malt, .logo_linkedin{
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.logo_malt{
+    height: 40px;
+}
+
+.logo_linkedin{
+    background-color: #ffffff;
+    height: 39px;
+    padding-left: 5px;
+    border-radius: 0 4px 4px 0;
+}
+
+.logo_github{
+    width: auto;
+    height: 40px;
+}
+.logo_phone, .logo_mail{
+    width: auto;
+    height: 30px;
+    margin-right: 15px;
+}
+
+.contact_number{
+    display: flex;
+    flex-direction: row;
+}
+
+.contact_number a, .contact_mail a{
+    display: flex;
+    align-items: center;
+}
+
+.contact_mail a {
+    overflow-wrap: anywhere;
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    .contact_content{
+        width: 90%;
+    }
+    .contact_title_container{
+        width: 100%;
+    }
+    .contact_content_info{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contact_list{
+        padding: 0;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .contact_content{
+        width: 100%;
+        padding: 0 10px;
+        height: auto;
+    }
+    .contact_container{
+        height: auto;
+    }
+    .contact_title{
+        font-size: 25px;
+    }
+    .contact_content_container{
+        flex-direction: column;
+        height: auto;
+    }
+    .contact_list{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+    }
+    .logo_linkedin, .logo_malt, .logo_github{
+        height: 30px;
+    }
+    .contact_number{
+        width: 90%;
+        justify-content: center;
+    }
+    .contact_mail{
+        width: 100%;
+        justify-content: center;
+    }
+    .contact_list a{
+        font-size: 14px;
+    }
+    .logo_mail, .logo_phone{
+        width: auto;
+        height: 20px;
+        margin-right: 10px;
+    }
+
+    .calendly-inline-widget{
+        width: 100%;
+        height: 600px;
+        margin-bottom: -120px;
+    }
 }

@@ -8,29 +8,28 @@
 }
 .about_content{
     display: flex;
-    width: 70%;
+    width: 1200px;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    padding: 0 5vw;
 }
 .about_title {
     color: #ffffff;
     margin: 0;
     font-size: 50px;
-    width: 35%;
+    width: auto;
 }
 .about_title_container{
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
     gap: 5%;
     align-items: center;
     width: 100%;
 }
 .about_content span {
     background-color: #3CECA7 !important;
-    width: 50%;
+    width: 66%;
     height: 2px;
     display: flex;
     flex-direction: row;
@@ -38,7 +37,8 @@
 .about_description{
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
 }
 .about_competence{
     width: 40%;
@@ -83,15 +83,53 @@
     padding: 5px 10px;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1440px) {
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
     .about_content{
         width: 90%;
     }
     .about_title{
-        width: 40%;
+        width: auto;
         text-align: end;
-    }
+    }  
+.about_content span{
+    width: 56%;
+}
     .about_competence{
         width: 45%;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .about_container{
+        width: 100vw;
+        height: auto;
+    }
+    .about_content{
+        width: 95%;
+    }
+    .about_title{
+        font-size: 25px;
+    }
+    .about_content span{
+        width: 30%;
+    }
+    .about_description{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .about_text, .about_competence{
+        width: 100%;
+        text-align: justify;
+        font-size: 15px;
+    }
+    .about_text p{
+        margin: 5px;
+    }
+    .about_competence_list{
+        width: 100%;
+        gap: 5px 10px;
+        margin:0 5px;
+    }
+    .title_inverted{
+        text-align: end;
     }
 }

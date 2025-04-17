@@ -41,7 +41,7 @@
 }
 
 .content_banner{
-    width: 900px;
+    width: 90%;
     padding-left: 5vw;
 }
 
@@ -79,10 +79,36 @@
     font-weight: 600;
     font-family: "Poppins", sans-serif;
     margin-bottom: 15vh;
+    text-decoration: none;
 }
 
 @media screen and (min-width: 1440px) {
     .content_banner{
         width: 1200px;
     }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .container_banner{
+    width: 100vw;
+  }
+  .content_banner{
+    width: 95%;
+    padding: 0;
+  }
+  .banner_title{
+    font-size: 35px;
+  }
+  .banner_description{
+    width: 95%;
+  }
+  .background_banner::before {
+    width: 90%;
+    height: 150px;
+    bottom: 5%;
+    right: auto;
+  }
+  .banner_button{
+    border-radius: 50px;
+  }
 }

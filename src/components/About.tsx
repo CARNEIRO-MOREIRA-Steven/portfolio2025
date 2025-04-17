@@ -17,8 +17,8 @@ const About: React.FC = () => {
                 <li key={index}>{skill}</li>
               ))}
             </ul>
-            <h3>Mes connaissances</h3>
-            <ul className="about_competence_list">
+            <h3 className='title_inverted'>Mes connaissances</h3>
+            <ul className="about_competence_list inverted">
               {["Figma", "Canva", "Notion", "Trello"].map((skill, index) => (
                 <li key={index}>{skill}</li>
               ))}

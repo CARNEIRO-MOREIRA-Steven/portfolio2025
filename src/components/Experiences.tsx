@@ -19,7 +19,7 @@ const Experiences = () => {
         </section>
         <aside className='experiences_review'>
           <h3>Ils me recommandent</h3>
-        <iframe src="https://widget.tagembed.com/2165307" frameBorder="0" width="100%" height="150%"></iframe>        
+        <iframe className='experiences_iframe' src="https://widget.tagembed.com/2165307" frameBorder="0" width="100%" height="150%"></iframe>        
         </aside>
         </section>
         </section>

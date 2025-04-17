@@ -4,7 +4,7 @@ export const projetsData: Projet[] = [
       id: 1,
       title: 'AURA',
       shortDescription: 'Site sur mesure pour des contrats d’entretiens',
-      fullDescription: 'Création d’un site sur-mesure en React pour accompagner les futures mamans. Responsive, SEO optimisé, et hébergé sur Vercel.',
+      fullDescription: 'Création d’un site sur-mesure en React / TypeScript pour la gestion de contrats d’entretien. Intégration de la signature électronique avec YouSign et paiement en ligne avec Stripe. Responsive, SEO optimisé.',
       technologies: ['React', 'TypeScript', 'CSS', 'Bootstrap', 'Stripe API', 'YouSign API' ],
       image: './aura_projet.png', // Placeholder image URL
     },
@@ -12,7 +12,7 @@ export const projetsData: Projet[] = [
       id: 2,
       title: 'L’espace d’un Instant',
       shortDescription: 'Site de réservation pour une maison d’hôte',
-      fullDescription: 'Création d’un site sur-mesure en React pour accompagner les futures mamans. Responsive, SEO optimisé, et hébergé sur Vercel.',
+      fullDescription: 'Création d’un site pour une maison d’hôte avec gestion des réservations en ligne. Responsive, SEO optimisé.',
       technologies: ['Wordpress', 'WooCommerce', 'Php', 'CSS', 'MySQL', 'Plugin', 'PayPal'],
       image: './lespaced1instant_projet.png', // Placeholder image URL
     },
@@ -20,7 +20,7 @@ export const projetsData: Projet[] = [
       id: 3,
       title: 'Neuf Mois Demain',
       shortDescription: 'Site de location de matériel de puériculture',
-      fullDescription: 'Création d’un site sur-mesure en React pour accompagner les futures mamans. Responsive, SEO optimisé, et hébergé sur Vercel.',
+      fullDescription: "Création d’un site e-commerce pour accompagner les futures mamans avec système de location. Mise en place d'une caution en ligne. Responsive, SEO optimisé.",
       technologies: ['Wordpress', 'WooCommerce', 'CSS', 'Php', 'MySQL', 'Plugin', 'Stripe'],
       image: './neufmoisdemain_projet.png', // Placeholder image URL
     },

@@ -22,3 +22,8 @@ html {
   background-color: #000000;
   z-index: -1;
 }
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .container_page{
+    width: 100vw;
+  }
+}
