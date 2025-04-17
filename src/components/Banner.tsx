@@ -10,7 +10,7 @@ const Banner = () => {
         <h2 className='banner_description'><strong>Développeur</strong> web passionné par la création de solutions performantes.
              A l'aide de mes compétences en <strong>React & Next.js</strong> je conçois des applications web modernes et performantes.
             <strong> Contacter moi</strong> pour discuter de vos projets.</h2>
-            <a className='banner_button' href='#contact'>Me contacter</a>
+             <a className='banner_button' href='#contact'>Me contacter</a>
         </section>
     </section>
   )

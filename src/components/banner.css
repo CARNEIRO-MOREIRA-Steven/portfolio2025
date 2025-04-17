@@ -90,10 +90,16 @@
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .container_banner{
-    width: 100vw;
+    width: 100%;
+    flex-direction: column-reverse;
+    gap: 50px;
   }
   .content_banner{
     width: 95%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
     padding: 0;
   }
   .banner_title{
@@ -101,6 +107,7 @@
   }
   .banner_description{
     width: 95%;
+    text-align: start;
   }
   .background_banner::before {
     width: 90%;
@@ -110,5 +117,7 @@
   }
   .banner_button{
     border-radius: 50px;
+    margin-bottom: 0;
+    text-align: center;
   }
 }

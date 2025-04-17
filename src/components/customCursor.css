@@ -10,4 +10,8 @@
     z-index: 9999;
     transition: transform 0.05s ease;
   }
-  
+  @media screen and (max-width: 1023px) {
+    .custom-cursor {
+      display: none;
+    }
+  }
