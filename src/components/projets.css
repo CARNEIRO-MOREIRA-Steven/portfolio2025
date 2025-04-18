@@ -161,7 +161,18 @@
       width: 100%;
     }
   }
-
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .projets_content{
+      width: 90%;
+    }
+    .projets_title_container span{
+      width: 50%;
+    }
+    .projets_card{
+      width: 285px;
+      height: 320px;
+    }
+  }
   @media screen and (min-width: 320px) and (max-width: 767px) {
     .projets_container{
       width: 100%;
@@ -177,6 +188,7 @@
     }
     .projets_grid{
       gap: 5px;
+      justify-content: center;
     }
     .projets_title_container span{
       width: 40%;

@@ -49,6 +49,12 @@
     padding: 0 10px;
     color: #3CECA7;
   }
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .header{
+        width: 5vw;
+    }
+  }
+
   @media screen and (min-width: 320px) and (max-width: 767px) {
     .header{
         width: 100vw;
@@ -57,7 +63,8 @@
         align-items: center;
         background-color: #000000b6;
         top: 0;
-        right: 0;
+        z-index: 50;
+        right: auto;
     }
     nav{
         width: 100%;

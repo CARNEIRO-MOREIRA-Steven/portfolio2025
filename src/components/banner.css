@@ -87,7 +87,15 @@
         width: 1200px;
     }
 }
-
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .container_banner{
+    justify-content: flex-start;
+    margin-top: 15%;
+  }
+  .background_banner::before{
+    height: 30%;
+  }
+}
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .container_banner{
     width: 100%;
