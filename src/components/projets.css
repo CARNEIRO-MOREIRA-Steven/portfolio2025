@@ -121,12 +121,15 @@
   
   .modal_close {
     position: absolute;
-    top: 1rem;
-    right: 1rem;
-    background: none;
-    border: none;
+    top: 5px;
+    right: 5px;
+    color: #3CECA7;
+    background-color: #000000;
+    border-radius: 25px;
     font-size: 2rem;
-    cursor: pointer;
+    padding: 0 6px;
+    font-size: 25px;
+    cursor: none;
   }
   .modal_title{
     text-align: center;
