@@ -19,7 +19,7 @@ const fadeIn = {
 
 const Experiences = () => {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, amount: 1 });
+  const isInView = useInView(ref, { once: true, amount: 0.4 });
 
   return (
     <section className='experiences_container' id='experiences'>
