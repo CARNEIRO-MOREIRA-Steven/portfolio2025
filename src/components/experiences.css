@@ -161,10 +161,6 @@
 		&[reverse] > article {
 			animation-direction: reverse;
 		}
-		/* hover pauses animation */
-		&:hover > article {
-			animation-play-state: paused;
-		}
 	}
 	.carousel > article {
 		position: absolute;

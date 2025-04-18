@@ -107,6 +107,7 @@
     max-width: 600px;
     width: 90%;
     position: relative;
+    z-index: 9999;
   }
   .modal_image_container{
     display: flex;
@@ -124,12 +125,11 @@
     position: absolute;
     top: 5px;
     right: 5px;
-    color: #3CECA7;
-    background-color: #000000;
-    border-radius: 25px;
+    color: #000000;
     font-size: 2rem;
-    padding: 0 6px;
-    font-size: 25px;
+    background: transparent;
+    border: none;
+    font-size: 30px;
     cursor: none;
   }
   .modal_title{
