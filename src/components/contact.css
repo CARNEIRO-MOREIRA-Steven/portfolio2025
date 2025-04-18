@@ -123,6 +123,53 @@
     overflow-wrap: anywhere;
 }
 
+.contact_links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    height: 450px;
+    background-color: #000000ad;
+    margin-top: 20px;
+    padding: 25px;
+    color: #ffffff;
+}
+
+.contact_links_description{
+    text-align: justify;
+}
+
+.contact_links_calendly{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+    background-color: #3CECA7;
+    padding: 10px 25px;
+    border-radius: 50px;
+    cursor: none;
+}
+
+.contact_links_calendly:hover.neon{
+    background-color: #000000;
+    color: #3CECA7;
+    font-weight: 700;
+}
+
+.contact_links_alternative{
+    text-align: center;
+}
+
+.contact_links_email{
+    text-decoration: none;
+    color: #3CECA7;
+    cursor: none;
+}
+
+.contact_links_email:hover{
+    font-weight: 600;
+}
+
 
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
     .contact_content{
@@ -182,10 +229,20 @@
         height: 20px;
         margin-right: 10px;
     }
+    .contact_item:hover .arrow_right{
+        display: none;
+    }
+    
+    .contact_item:hover #logo_contact{
+        transform: translate(0);
+    }
+    .contact_mail a{
+        justify-content: center;
+    }
 
-    .calendly-inline-widget{
-        width: 100%;
-        height: 600px;
-        margin-bottom: -120px;
+    .contact_links{
+        width: 85%;
+        height: auto;
+        padding: 15px;
     }
 }
