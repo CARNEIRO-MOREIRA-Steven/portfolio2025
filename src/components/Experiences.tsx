@@ -23,8 +23,8 @@ const Experiences = () => {
 
   return (
     <section className='experiences_container' id='experiences'>
-      <section className='experiences_content' >
-        <motion.div
+      <section className='experiences_content'>
+        <motion.div ref={ref}
           className='experiences_title_container'
           initial="hidden"
           animate={isInView ? 'visible' : 'hidden'}
@@ -32,7 +32,7 @@ const Experiences = () => {
           transition={{ duration: 1}}
         >
           <span></span>
-          <h2 className='experiences_title' ref={ref}>Mes Expériences</h2>
+          <h2 className='experiences_title'>Mes Expériences</h2>
         </motion.div>
 
         <section className='experiences_details'>
