@@ -35,8 +35,7 @@ const Contact = () => {
                             </li>
                         </ul>
                     </section>
-<div className="calendly-inline-widget" data-url="https://calendly.com/codemetasolutions/30min?hide_event_type_details=1&hide_gdpr_banner=1&hide_scrollbar"></div>
-<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+                        <iframe  src='https://calendly.com/codemetasolutions/30min?hide_event_type_details=1&hide_gdpr_banner=1&hide_scrollbar' className="calendly-inline-widget"></iframe>
                 </section>
             </section>
         </section>
